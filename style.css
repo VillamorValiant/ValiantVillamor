@@ -99,8 +99,8 @@ nav ul li:hover .sub-menu ul {
   background: url(back.png);
   -webkit-background-clip: text;
   background-position: 0 0;
-  animation: back 30s linear infinite;
-  background-repeat: space no-repeat;
+  animation: back 20s linear infinite;
+  position: static;
 }
 @keyframes back {
   100% {
